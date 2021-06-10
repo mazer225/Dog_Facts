@@ -1,0 +1,15 @@
+.positionCards {	
+	display: grid;
+	grid-template-columns: repeat(auto-fill,minmax(600px,1fr));
+	grid-template-rows: 1fr;
+	grid-gap:15px;
+
+}
+
+@media only screen and (max-width: 715px) {
+	.positionCards{
+		grid-template-columns: auto;
+		min-height: 0;
+		min-width: 0;
+	}
+}
